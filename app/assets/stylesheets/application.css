@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .question-container, .answer-container {
+  border-left: 4px solid lightgray;
+  padding-left: 10px;
+  margin-bottom: 20px;
+ }
+
+ .answer-container {
+  background-color: #ffffcc;
+ }
+
+ body {
+  font-family: 'Roboto', sans-sertif;
+ }
+
+ .no-underline {
+  text-decoration: none;
+ }

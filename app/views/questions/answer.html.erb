@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <div class="question-container">
+        <p><%= @answer %></p>
+        <p><em>-You</em></p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="answer-container">
+        <p><%= @response %></p>
+        <p><em>-Your coach</em></p>
+      </div>
+    </div>
+  <%= link_to("Ask a new question", ask_path, class: "no-underline") %>
+  </div>
+</div>
